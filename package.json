@@ -1,0 +1,31 @@
+{
+  "name": "fe-pro-hw24.1-render",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.mjs",
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YShameko/FE-Pro-hw24.1-render.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YShameko/FE-Pro-hw24.1-render/issues"
+  },
+  "homepage": "https://github.com/YShameko/FE-Pro-hw24.1-render#readme",
+  
+  "dependencies": {
+    "@fastify/static": "^8.2.0",
+    "fastify": "^5.5.0",
+    "mongoose": "^8.18.0",
+    "nodemon": "^3.1.10",
+    "path": "^0.12.7",
+    "url": "^0.11.4"
+  }
+}
